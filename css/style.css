@@ -1,0 +1,457 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif
+        }
+        
+        .navbar-brand {
+            font-family: 'Concert One', cursive !important;
+            font-size: 1.5rem;
+            margin-top: 40px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        li {
+            list-style: circle;
+        }
+        
+        h1 {
+            font-family: 'Concert One', cursive;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            font-weight: 400;
+            /* color:white; */
+            font-family: 'Concert One', cursive;
+        }
+        
+        i {
+            font-size: 250px;
+        }
+        
+        .center-div {
+            top: 0;
+            margin-top: 0;
+        }
+        
+        .extra-div h2,
+        .Servicediv h2 {
+            font-size: 2rem;
+            margin: 20px 0 15px 0;
+            font-weight: bold;
+            line-height: 1.1;
+            word-spacing: 4px;
+        }
+        
+        .header-extradiv p {
+            color: black;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        
+        .header {
+            width: 100%;
+            height: 100vh;
+            color: white !important;
+            background-image: linear-gradient(rgba(0, 160, 250, 0.3), rgba(0, 160, 250, 0.3)), url('../images/5156002a1bb0d74.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0 75%, 0 0);
+            position: relative;
+            transition: 20s;
+        }
+        
+        .row {
+            max-width: 1180px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            height: 100px;
+            width: auto;
+            float: left;
+            margin-top: 30px;
+        }
+        
+        .colorchange {
+            font-size: 30px;
+            color: darkblue;
+            font-weight: bolder;
+            font-family: cursive;
+        }
+        
+        .header:before {
+            content: "";
+            position: absolute;
+            top: 0%;
+            bottom: 0%;
+            color: white !important;
+            left: 0%;
+            right: 0%;
+            background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+            opacity: .1;
+            z-index: -1;
+        }
+        
+        .nav-item {
+            margin-left: 40px;
+        }
+        
+        .nav-item a {
+            color: black !important;
+            justify-content: space-around;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            word-wrap: 500px;
+            margin-top: 25px;
+            display: flex;
+            padding: 25px;
+            position: relative;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .nav-item a:hover {
+            background: #50d1c0;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .dropdown {
+            margin-left: 40px;
+        }
+        
+        .dropdown a {
+            color: black !important;
+            justify-content: space-around;
+            font-weight: bolder;
+            font-size: 1.5rem;
+            word-wrap: 500px;
+            margin-top: 25px;
+            display: flex;
+            padding: 25px;
+            position: relative;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .dropdown a:hover {
+            background: #50d1c0;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .header-section {
+            top: 50px;
+            width: 100%;
+            height: inherit;
+            color: white !important;
+            text-align: center;
+            position: relative;
+            font-weight: 800px;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .fa-color {
+            color: blue;
+        }
+        
+        .social {
+            border: 1px solid black;
+            border-radius: 40px;
+            outline: none;
+            color: black !important;
+            font-weight: 800;
+            line-height: 1.4;
+            text-align: center;
+            margin: 0 5px;
+            padding: 5px 5px;
+            width: fit-content;
+            background-color: white;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .container p {
+            font-size: 22px;
+        }
+        
+        .center-div {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+        }
+        
+        .header-buttons a {
+            border: 1px solid black;
+            border-radius: 100px;
+            margin: 0 5px;
+            padding: 12px 35px;
+            outline: none;
+            color: black !important;
+            font-weight: 800;
+            line-height: 1.4;
+            text-align: center;
+            background-color: white;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .header-buttons a:hover {
+            background: #50d1c0;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .center-div p {
+            font-size: 1.3rem;
+            padding: 10px 0 20px 0;
+            /* color: white; */
+            font-weight: 600;
+        }
+        
+        .header-extradiv {
+            width: 100%;
+            height: auto;
+            margin: 100px 0;
+            text-align: center;
+            background: lightblue;
+        }
+        
+        .extra-div {
+            background: #f7f7f9;
+            border: medium;
+            padding: 50px !important;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        
+        .extra-div:hover {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transform: translateY(-50px);
+        }
+        
+        .Serviceoffers p {
+            color: black;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        .Serviceoffers {
+            background: #f7f7f9;
+            padding: 50px 0;
+            margin-bottom: 50px;
+        }
+        
+        .headings {
+            margin-bottom: 50px;
+        }
+        
+        .headings h1 {
+            font-size: 2rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .names h1 {
+            color: #2e2e2e;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .service-icons {
+            justify-content: right;
+            display: flex;
+            align-items: center;
+        }
+        
+        .Servicediv {
+            text-align: right;
+        }
+        
+        .main-text {
+            position: absolute;
+            top: 250px;
+            width: 96.66666666666666%;
+            color: red;
+        }
+        
+        i {
+            color: #2fccd0;
+        }
+        /*********** pricing css start**********/
+        
+        .pricing {
+            width: 100%;
+            height: 100vh;
+            padding: 50px;
+            position: relative;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            background: lightblue;
+        }
+        
+        .money {
+            font-size: 45px;
+            line-height: 1;
+            color: blue;
+        }
+        
+        .card {
+            transition: 0.4s ease;
+        }
+        
+        .card-header {
+            font-size: 1.8rem;
+            font-weight: 1000;
+            color: black;
+            background-color: #fff!important;
+            padding: 25px 9 !important;
+            text-transform: uppercase;
+        }
+        
+        .card-body {
+            padding: 30px 0!important;
+        }
+        
+        .card-body li {
+            margin: 10px 0;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 1.6;
+            color: black;
+        }
+        
+        .card-footer {
+            background: white!important;
+            padding: 30px 0px!important;
+        }
+        
+        .card-footer a {
+            border: 1px solid black;
+            border-radius: 100px;
+            margin: 0 5px;
+            padding: 12px 35px;
+            outline: none;
+            color: lightblue!important;
+            font-weight: 800;
+            line-height: 1.4;
+            text-align: center;
+            background-color: white;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .card:hover .card-footer a:hover {
+            background: #50d1c0;
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+        }
+        
+        .card:hover {
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+            transform: translateY(-50px);
+        }
+        
+        .card:hover .card-header,
+        .card:hover .card-header {
+            color: #51d1c0;
+        }
+        
+        .card-second {
+            transform: translateY(-35px);
+            margin: 40px 0;
+        }
+        
+        .pricing,
+        .contactus {
+            height: auto;
+            margin-top: 50px;
+        }
+        /*********** contact us css start**********/
+        
+        .contactus {
+            width: 100%;
+            height: 100vh;
+            padding: 80px 0;
+            position: relative;
+        }
+        
+        .contactus:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: lightblue;
+        }
+        
+        .form-button button {
+            text-align: center;
+            border-radius: 100px;
+        }
+        /*********** footer css start**********/
+        
+        .last {
+            background: lightblue;
+        }
+        
+        .navi-link {
+            position: absolute;
+        }
+        
+        .navi-link h3 {
+            color: black!important;
+            font-weight: bolder;
+        }
+        
+        .navi-link a {
+            color: black!important;
+            list-style: none;
+            font-family: 'Concert One', cursive;
+        }
+        
+        .navi-link li {
+            list-style: none;
+        }
+        
+        .footer-div h3 {
+            color: black!important;
+            font-weight: bolder;
+        }
+        
+        .footer-div h4 {
+            color: black!important;
+            font-weight: bolder;
+            font-family: 'concert One';
+        }
+        
+        .footer-div p {
+            color: black!important;
+            font-size: 15px;
+        }
+        
+        .footer-div :nth-child(last-child) {
+            text-align: left!important;
+        }
+        
+        .navi-link {
+            text-align: left!important;
+        }
